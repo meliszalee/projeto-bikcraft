@@ -1,0 +1,43 @@
+/*HEADER*/
+.header{
+    background-color: #000;
+}
+
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px 30px;
+}
+
+.header-menu{
+    gap: 40px;
+}
+
+.header-menu a{
+    color: var(--text1);
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+
+    padding: 16px 0;
+    display: inline-block;
+
+    position: relative;
+}
+
+.header-menu a::after{
+    content: "";
+    background-color: var(--text1);
+
+    display: block;
+    height: 2px;
+    width: 0;
+    margin-top: 5px;
+    transition: 0.3s;
+
+    position: absolute;
+}
+
+.header-menu a:hover:after{
+    width: 100%;
+}
