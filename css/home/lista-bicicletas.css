@@ -18,6 +18,9 @@
     gap: 40px;
 
     padding: 20px;
+    padding-bottom: 30px;
+
+    overflow-x: auto;
 }
 
 .lista img{
@@ -37,13 +40,29 @@
 .lista h3::before{
     content: '';
     background-color: var(--destaque1);
-    display: inline-block;
 
+    display: inline-block;
     height: 8px;
     width: 12px;
     margin-right: 8px;
+    transition: width 0.3s;
+}
+
+.lista a:hover h3::before{
+    width: 24px;
 }
 
 .lista li span{
     padding: 20px;
+}
+
+.lista li{
+    min-width: 280px;
+    flex: 1;
+}
+
+@media screen and (max-width: 800px) {
+    .lista-bicicletas{
+        padding-top: 0px;
+    }
 }

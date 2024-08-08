@@ -1,0 +1,21 @@
+.tecnologia-bg{
+    background-color: var(--background2);
+}
+
+.tecnologia-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.motor-rastreador{
+    color: var(--text1);
+}
+
+.motor-rastreador h3{
+    font-size: 1.6rem;
+}
+
+.tecnologia-img img{
+    height: 100%;
+}

@@ -83,6 +83,14 @@ a{
     font-weight: 400;
 }
 
+.paragrafo-2{
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: var(--text2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 .h3{
     font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
@@ -97,7 +105,24 @@ a{
     font-family: 'Poppins', sans-serif;
 }
 
+.texto-medio{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 3rem;
+    color: var(--text1);
+}
+
 .espaco-vazio{
     height: 100px;
     background-color: var(--text1);
+}
+
+.selecionar{
+    color: var(--destaque1);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: underline;
 }
