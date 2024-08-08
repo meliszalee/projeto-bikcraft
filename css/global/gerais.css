@@ -15,6 +15,7 @@
     --text1: #fff;
     --text2: #b2b2b2;
     --text3: #332200;
+    --text4: #787878;
     --destaque1: #ffbb00;
     --destaque2: #f2a50c;
 }
@@ -80,4 +81,23 @@ a{
     color: var(--text2);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+
+.h3{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.preco{
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: var(--text4);
+    font-family: 'Poppins', sans-serif;
+}
+
+.espaco-vazio{
+    height: 100px;
+    background-color: var(--text1);
 }

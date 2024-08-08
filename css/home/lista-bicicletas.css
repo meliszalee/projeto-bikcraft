@@ -1,0 +1,49 @@
+/*LISTA DE BICICLETAS*/
+.lista-bicicletas{
+    padding: 60px 0px;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.lista-bicicletas h2{
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.lista{
+    display: flex;
+    gap: 40px;
+
+    padding: 20px;
+}
+
+.lista img{
+    margin-bottom: 10px;
+}
+
+.lista a{
+    display: block;
+}
+
+.lista h3{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.lista h3::before{
+    content: '';
+    background-color: var(--destaque1);
+    display: inline-block;
+
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+}
+
+.lista li span{
+    padding: 20px;
+}

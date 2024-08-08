@@ -94,6 +94,10 @@
     .introducao-img{
         margin-bottom: -60px;
     }
+
+    .lista-bicicletas{
+        padding-top: 0px;
+    }
 }
 
 @media screen and (max-width: 600px) {
