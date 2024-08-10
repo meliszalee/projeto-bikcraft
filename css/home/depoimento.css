@@ -1,0 +1,74 @@
+.depoimento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: var(--destaque1);
+    overflow: hidden;
+}
+
+.depoimento-img img{
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.depoimento-conteudo{
+    padding: 40px 40px 80px 80px;
+    
+    align-self: end;
+}
+
+.depoimento-conteudo p{
+    margin-bottom: 30px;
+    max-width: 32ch;
+    
+    font-style: italic;
+    color: var(--text3);
+
+    position: relative;
+}
+
+.depoimento-conteudo p::after,
+.depoimento-conteudo p::before{
+    font-size: 4rem;
+    font-family:  'Times New Roman', Times, serif;
+    color: var(--destaque2);
+}
+
+.depoimento-conteudo p::before{
+    content: '“';
+
+    position: absolute;
+    left: -50px;
+}
+
+.depoimento-conteudo p::after{
+    content: '”';
+
+    position: absolute;
+}
+
+.depoimento-conteudo > span{
+    font-size: 1.2rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: var(--text6);
+}
+
+@media screen and (max-width: 800px) {
+    .depoimento{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .depoimento-img img{
+        max-height: 300px;
+    }
+
+    .depoimento-conteudo{
+        padding-bottom: 40px;
+        justify-self: center;
+    }
+}
+
